@@ -19,3 +19,9 @@ NIH ChestX-ray14:
   -14 categorías de patologías
   -Etiquetas extraidas de informes radiológicos
   [Artículo base](https://pmc.ncbi.nlm.nih.gov/articles/PMC12428523/pdf/diagnostics-15-02215.pdf)
+
+## Modelos a evaluar:
+
+- ResNet50
+- DenseNet21
+- Modelo con preentrenamiento médico (si no piden autorización, o que no se haya entrenado con datos de mi test)
