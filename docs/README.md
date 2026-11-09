@@ -20,7 +20,7 @@ NIH ChestX-ray14:
   -Etiquetas extraidas de informes radiológicos
   [Artículo base](https://pmc.ncbi.nlm.nih.gov/articles/PMC12428523/pdf/diagnostics-15-02215.pdf)
 
-## Modelos a evaluar:
+## Modelos a evaluar:
 
 - ResNet50
 - DenseNet21
