@@ -1,0 +1,17 @@
+# Configuración base del proyecto
+data:
+  root: null          # ruta al dataset (se rellena cuando esté descargado)
+  label_cols: []      # subconjunto de patologías seleccionadas
+  image_size: 224
+  batch_size: 4
+  num_workers: 2
+
+model:
+  name: densenet121   # resnet50 | densenet121
+  pretrained: true
+  freeze_strategy: full  # feature_extraction | partial | full
+
+training:
+  epochs: 1
+  lr: 0.0001
+  device: auto        # auto | cpu | cuda | mps
