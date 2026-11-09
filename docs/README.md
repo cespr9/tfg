@@ -18,6 +18,4 @@ NIH ChestX-ray14:
   -30.805 pacientes
   -14 categorías de patologías
   -Etiquetas extraidas de informes radiológicos
-  [Artículo base A Comparative Analysis of the Mamba, Transformer, and CNN
-Architectures for Multi-Label Chest X-Ray Anomaly Detection in
-the NIH ChestX-Ray14 Dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC12428523/pdf/diagnostics-15-02215.pdf)
+  [Artículo base](https://pmc.ncbi.nlm.nih.gov/articles/PMC12428523/pdf/diagnostics-15-02215.pdf)
