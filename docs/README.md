@@ -5,14 +5,14 @@ Info básica del trabajo
 -----
 
 
-##Descripción:
+## Descripción:
 Fine-tuning de modelos de visión para la detección de patologías en radiografías de tórax
   -Investigar como influye el preentrenamiento y la estrategia de fine-tuning en detectar distintas patologías torácicas.
 
-##Título:
+## Título:
 Evaluación de modelos de visión preentrenados y técnicas de fine-tuning para la detección automática de patologías en radiografías de tórax.
 
-##Dataset:
+## Dataset:
 NIH ChestX-ray14:
   -112.120 radiografías
   -30.805 pacientes
