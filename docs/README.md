@@ -25,3 +25,30 @@ NIH ChestX-ray14:
 - ResNet50
 - DenseNet21
 - Modelo con preentrenamiento médico (si no piden autorización, o que no se haya entrenado con datos de mi test)
+
+## Estrategias a evaluar:
+
+- Feature extraction:
+    - Mantener congeladas las capas del modelo preentrenado
+    - Sustituir última capa por clasificador de 6 salidas
+    - Entrenar solo esto
+ 
+- Fine-tuning parcial:
+    - Congelar 1ªs capas
+    - Descongelar últimos bloques convolucionales
+    - Entrenar estos bloques y el clasificador
+
+- Fine-tuning completo:
+    - Descongelar todas las capas
+    - Ajustar pesos de toda la red
+    - Tasa de aprendizaje reducida para el modelo preentrenado
+    - (Aquí hay riesgo de overfitting)
+ 
+## Métricas a evaluar:
+
+- AUROC (área under curva ROC)
+- AUPRC (área under curva PR)
+- Precission
+- Recall
+- F1-score
+
